@@ -1,0 +1,105 @@
+/* main styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border-top: 5px solid #ACE1AF;
+    border-bottom: 40px solid #ACE1AF;
+    border-left: 10px solid #ACE1AF;
+    border-right: 10px solid #ACE1AF;;
+}
+
+/* header styling */
+header {
+    height: 80px;
+    border-bottom: 10px solid #ACE1AF;
+}
+
+#navbar {
+    float: right;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+    padding: 5px;
+}
+
+#navbar ul li a{
+    display: block;
+    padding : 10px 0;
+    background-color: #3fb2d4;
+    color: #5e4972;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 3px 3px 10px #3fb2d4;
+}
+
+/* section styling */
+section {
+    height: 650px;
+    border-bottom: 10px solid #ACE1AF;
+}
+
+.container {
+    padding: 20px 40px 40px;
+    text-align: center;
+    height: 100%;
+}
+
+.container h1 {
+    padding-bottom: 20px;
+    font-size: 1.7em;
+    width: 40%;
+    margin: auto;
+}
+
+.container p {
+    width: 30%;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.container .int_pic {
+    padding-bottom: 20px;
+}
+
+.container .int_pic a {
+    display: inline-block;
+    width: 10%;
+    height: 100px;
+    background-color: #3fb2d4;
+    
+    padding: 30px 10px;
+    padding-top: 35px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.container .img {
+    background: url('map_img.png') no-repeat center center;
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    background-size: 770px 348px;
+}
+
+/* footer */
+footer p {
+    padding: 10px 0;
+}
+
+footer div {
+    text-align: center;
+}
